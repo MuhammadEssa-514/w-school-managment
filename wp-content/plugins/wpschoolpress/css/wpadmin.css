@@ -1,0 +1,50 @@
+/*
+	Add new custome style by WpSchoolPress
+*/
+
+body{    background-color: #f1f1f1 !important;}
+.plg-option{width:15%;vertical-align:top;}
+.plg-value{ width:85%;}
+tr.spaceUnder > td {padding-bottom: 1em;}
+.box{border:none; } 
+
+/* #wpbody-content .skin-blue .content-wrapper{margin-left: -15px;}   */
+.ui-tooltip.ui-widget-shadow{box-shadow: -5px -5px 5px #f1f1f1 !important;}
+.form-control{box-shadow: none !important;}
+.wp-admin select.form-control{    height: 34px;     padding: 6px 12px; line-height: 1.42857143;}
+#parent-field-lists{margin-top:15px;} 
+.overlays{
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+bottom: 0;
+z-index: 99999;
+background: rgba(0, 0, 0, 0.63);
+}
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.ui-pnotify-container.alert-warning{    background-color: #dd4b39 !important;} 
+
+.subject-head{min-width: 100%;background: #f1f1f1;margin: -10px -10px 15px; padding: 5px 15px;width: auto; min-height: 50px;}
+.subject-inner{padding: 0; display: inline-block; max-width: 300px;}
+.sec-title{margin-bottom: 30px; color: #000; border-left: 5px solid #0073b7; padding-left: 25px; padding-top: 10px; padding-bottom: 10px; margin-left: -25px;   background: #f9f9f9;}
+.sec-title .fa{    color: #0073b7;}
+
+.progress-text{display: inline-block; margin-bottom: 10px; font-size: 16px;}  
