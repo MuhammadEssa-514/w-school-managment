@@ -1,0 +1,53 @@
+@media only screen and (max-device-width: 480px) {
+.btn-pro.button-group .dropdown { margin-bottom: 15px; padding-left:0px !important; padding-right: 5px;}
+#student_table_length label select { width:100%; margin-top:15px; }
+div.dataTables_length label { width: 100%; }
+.text-right .btn-pro.button-group { float: left; margin-top: 15px;}
+.box box-info .box-body .float-left { float: none;}
+.class-filter select { width: 100%;}
+.box-body .float-left { float: left; width: 100%;}
+
+}
+
+
+
+@media only screen and (max-width: 768px) {
+ 
+section.content-header h1{ margin-bottom:15px; }
+a.sidebar-toggle .gap-academicyear { width: 80%;}
+.main-footer { text-align: center; padding-bottom:20px;}
+.class-filter select { width: 66%; }
+table#subject_table tbody tr td a.EditSubjectLink { margin-bottom: 5px; display: inline-block;}
+div.dataTables_paginate ul.pagination { margin-bottom: 10px; }
+.mailbox-header .wpsp-mail-title h2 { margin-bottom: 10px; }
+#student_table tbody tr td a.ViewStudent, a.viewAttendance { margin-bottom: 10px; display: inline-block;}
+.box-info .box-body .col-md-12 a.btn-primary { float:left; }
+table #class_table tbody tr.pointer td a { margin-bottom:10px; }
+.main-footer { padding: 0px 15px 15px 15px; }
+div.dataTables_filter { text-align: left;}
+#student_table_paginate.dataTables_paginate { white-space: nowrap; text-align: center; margin-bottom:10px; }
+.box-body .class-filter select { width: 100%; }
+.button-group .btn-pro.button-group .dropdown { padding-left: 0px; }
+.modal.modal-wide .modal-dialog { width: 95% !important;  margin: auto; }
+section.content-header h1 { margin-bottom: 0px; font-size: 18px; }
+.content-header > .breadcrumb { top: 0px; }
+.main-footer { padding: 0px 15px 5px 15px; }
+.panel-info .panel-body .img-circle { margin: auto; display: inherit;}
+.box-footer .line_box .col-md-12 label.btnM {
+    display: inline-block;  width: 100%;
+}
+.no-padding{ padding:0px; }
+.dataTables_length label {
+    margin-top: 10px;
+}
+
+
+
+
+
+}
+
+
+
+
+

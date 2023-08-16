@@ -1,0 +1,24 @@
+
+# BEGIN WordPress
+# The directives (lines) between "BEGIN WordPress" and "END WordPress" are
+# dynamically generated, and should only be modified via WordPress filters.
+# Any changes to the directives between these markers will be overwritten.
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+RewriteBase /ecommerse/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /ecommerse/index.php [L]
+</IfModule>
+
+# END WordPress
+
+	# WP Increse Maximum Execution Time
+
+	<IfModule mod_php5.c>
+
+		php_value max_execution_time 300
+
+	</IfModule>
